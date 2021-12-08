@@ -1,0 +1,33 @@
+go north
+take bolt
+take spring
+incinerate spring
+take button
+take processor
+take red pill
+incinerate red pill
+take radio
+take cache
+take blue transistor
+combine processor cache
+take antenna
+incinerate antenna
+combine radio transistor
+take screw
+take motherboard
+combine screw motherboard
+take A-1920-IXB
+combine A-1920-IXB radio
+take transistor
+combine A-1920-IXB bolt
+combine A-1920-IXB processor
+take keypad
+combine A-1920-IXB transistor
+combine A-1920-IXB motherboard
+combine keypad button
+inventory
+combine keypad motherboard
+go south
+use keypad
+examine
+quit

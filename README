@@ -1,0 +1,79 @@
+/**********************************************************************
+* HW7: Profiling
+* CS 40 - Machine Struc and Programming
+* README
+* Name: Katie Yang (zyang11)  &  Pamela Melgar (pmelga01)
+* Date: December 7, 2021
+**********************************************************************/
+
+
+_____________
+Compile/run: |
+_____________|
+     - Compile um using
+            make 
+            
+     - run executable with
+            ./um [instruction_input] < [stdin_file] > [stdout_file]
+            
+     - Ensure the directory where the execution occurs has a um.c, 
+
+_________________
+Program Purpose: |
+_________________|
+
+The purpose of this assignment is to learn to use profiling tools 
+to apply your knowledge of machine structure and assembly-language programming.
+
+__________________
+Acknowledgements: |
+__________________|
+
+THANK YOU to ALL the 40 TAs for debugging help
+Thank you gustavo for helping us figure out our segfault issues and
+extraneous mallocs
+
+Reference for basic (non-expandable) Queue implementation in C:
+https://www.codesdope.com/blog/article/making-a-queue-using-an-array-in-c/
+
+______________________________________________________
+What routine in the final um takes up the most time,  |
+and whether the assembly code could be improved       |
+______________________________________________________|
+
+Explainswhatroutineinthefinalumtakesupthemosttime,andsayswhethertheassemblycode could be improved
+
+______________________________
+What Works and What does not: |
+______________________________|
+
+We believe everything is working as expected. When running the times in 
+the Halligan computers (on a busy day where other students are also working)
+
+The reference implementation's times were: 
+small: 0.26s
+medium: 1.80s
+big:    6.33s
+
+and OUR UM implementation time was: 
+small: 0.21s
+medium: 1.78s
+big:    5.09s
+
+
+______________________
+Files/ Architecture:  |
+______________________|
+
+um.c
+    Holds our whole program. Our consolidated modules from last hw (HW6).
+
+
+_____________
+Time Spent:  |
+_____________|
+
+Time spent analyzing: ~5 hrs
+
+Time spent solving: ~20 hrs
+

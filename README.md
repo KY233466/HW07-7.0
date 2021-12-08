@@ -1,1 +1,2 @@
-# HW07-7.0
+# HW07-4.0
+Sequence of c array
